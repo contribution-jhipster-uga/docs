@@ -19,8 +19,11 @@ Préparation des Sprints (Backlog)
 
 ## 04/02 : 
 Mise en commun des tâches à faire, répartition du backlog.
+
 Ergi & Corentin : JSON-LD bloqué, envoie d’un message à Didier Donsez pour nous débloquer. Début FullCalendar et prise en main d’Angular.
+
 Maxime : Génération des variables associées au type ImageBlob
+
 Alexis, Thibaut, Tom : Indexation Full-Text ImageAI, OCR, Apache Tika
 
 Développement d’une fonction de détection d’image avec ImageAI (Python + Intégration à Spring)
@@ -29,17 +32,17 @@ Développement d’une fonction de parsing metadata avec Apache Tika
 
 ## 05/02 : 
 Ergi & Corentin : Prise en main d’Angular et mise en place + configuration de l’API FullCalendar sur JHipster
+
 Maxime : Zzz...Zzz...Zzz...
+
 Alexis, Thibaut, Tom : Intégration des fonctions du module d’indexation dans une classe java Indexation. 
 Traitement d’une image lors d’un ajout en BDD pour compléter les champs extractedObject, exif à l’aide des fonctions d’Indexation.
 
-
-
 ## 07/02 :
- Alexis, Thibaut, Tom : Correction des fonctions d’indexation afin qu’elle fonctionne sous linux. -> Succès
- Maxime : 
+Alexis, Thibaut, Tom : Correction des fonctions d’indexation afin qu’elle fonctionne sous linux. -> Succès
+Maxime : 
 
- Corentin : 
+Corentin : 
 
 Ergi : Récupération des events de la base des données pour les afficher dans fullCalendar.
 
@@ -52,25 +55,39 @@ Ergi: Créer un nouveau event avec fullCalendar et l’ajouter dans la base de d
  
 ## 11/02 :
 Ergi + Corentin: Génération d’un nouveau projet avec le modèle complète.
+
 Alexis + Thibaut + Tom : On a étudié le code du projet Lazyblob qui gère l’appel des images avec gestion du cache.
 
 Maxime : Absence justifiée
 
 ## 12/02 : 
+Ergi + Corentin: Finalisation d'une page web de base pour travailler avec fullCalendar.
+
 Alexis + Thibaut + Tom : Application et test de la route GetBlobImage à plusieurs endroits de l’application.
 
 ## 13/02 :
- Alexis + Thibaut + Tom : Correction d’erreur sur le récupération des données liées à l’api.
+Ergi: Gestion de la visibilité des événements selon leur aspect privé et leur créateur.
+
+Corentin: Création de la fenetre modal pour afficher les informations de l'événement.
+
+Alexis + Thibaut + Tom : Correction d’erreur sur le récupération des données liées à l’api.
 
 ## 14/02 :
+Ergi: Gestion de l'internationalisation du calendrier.
+
 Alexis + Thibaut + Tom : Continuation des corrections d’erreur + test avec elasticsearch.
 
 ## 18/02 :
 Réunion avec Didier Donsez.
+
+Ergi: Petites améliorations visuelles et techniques du module.
+
 Alexis + Thibaut + Tom : Création d’une nouvelle entité PhotoLite pour permettre un appel Lazy au niveau du JPARepository.
 Ajout du PhotoLiteRepository et du PhotoLiteMapper, modification des services et de la fonction getBlobasResponseEntity pour optimiser l’appel des images. 
 
 
 ## 20/02 :
+Ergi: Début de prise en main de la librairie ical4j
+
 Alexis : Diaporama soutenance intermédiaire
 Thibaut + Tom : Adaptation du front end avec PhotoLite
